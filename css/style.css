@@ -1,12 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Source+Code+Pro&display=swap');
+
 body {
     width: 100vw;
     height: 100vh;
     background-color: #181818;
+    cursor: pointer;
 }
 
 html {
-    overflow: hidden;
+    overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #181818;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(top right, #4287f5, #4e42f5);
+    border-radius: 50px;
+  }
 
 .bannerholder {
     display: flex;
@@ -14,14 +28,59 @@ html {
     margin-top: 25px;
 }
 
+
+.contentplace {
+    text-align:center;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+.navselected {
+    background: #DAE2F8;
+    background: -webkit-linear-gradient(to right, #DAE2F8 0%, #D6A4A4 100%);
+    background: -moz-linear-gradient(to right, #DAE2F8 0%, #D6A4A4 100%);
+    background: linear-gradient(to right, #DAE2F8 0%, #D6A4A4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.navhover {
+    color: white;
+    text-decoration: none;
+    transition: font-size 0.5s;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.navhover:hover {
+    font-size: 24px;
+}
+
 .sitecontent {
     display: flex;
-    align-cotent: center;
+    align-content: center;
     justify-content: center;
     text-align: center;
+}
+
+.font {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
 }
 
 .navbar {
     color:white;
     text-align: center;
+}
+
+img {
+    border-radius: 0.25rem;
+}
+
+.foobar {
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform:translate(-50%,0%);
+    -ms-transform:translate(-50%,0%)
 }
