@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #181818;
+}
+
+html {
+    overflow: hidden;
+}
+
+.bannerholder {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.sitecontent {
+    display: flex;
+    align-cotent: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar {
+    color:white;
+    text-align: center;
+}
