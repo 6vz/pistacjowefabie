@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/calc.js"></script>
+    <title>Pistacjowe Fabie &middot; Kalkulator Spalania</title>
+</head>
+<body>
+    <div class="content">
+        <div class="bannerholder"><img class="banner" src="./assets/baner.png" width="50%"></div>
+        <div class="sitecontent">
+            <p class="navbar"><a class="navhover" href="./index.html">Strona Główna</a><a class="navhover" href="./galeria.html">Galeria</a><a class="navhover" href="./danetechniczne.html">Dane Techniczne</a><a class="navhover navselected" href="./kalkulator.html">Kalkulator</a><a class="navhover" href="./zamow.html">Zamów swój egzemplarz</a></p>
+            <br>
+        </div>
+        <div class="contentplace">
+            <br><br>
+            <hr width="50%">
+            <h4 class="font">Spalanie</h4>
+            <input id="liters" type="number" placeholder="Wpisz ilość litrów">
+            <button class="submitbutton" onclick="obliczSpalanie()">Oblicz Spalanie</button>
+            <br>
+            <hr width="50%">
+            <h4 class="font">Emisje gazu / kilometr</h4>
+            <input id="emission" type="number" placeholder="Wpisz ilość kilometrow">
+            <button class="submitbutton" onclick="obliczEmisje()">Oblicz Emisje</button>
+            <br>
+            <hr width="50%">
+        </div>
+        <div class="foobar">
+            <p class="font">© 2022 - Mateusz Baranowski 1pr</p>
+        </div>
+    </div>
+</body>
+</html>
