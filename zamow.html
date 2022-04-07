@@ -16,8 +16,8 @@
         </div>
         <div class="contentplace">
             <p class="font">Pistacjowe fabie są dostępne tylko dla uczniów z Polski oraz Czech, uczniowie którzy chcą kupić ten cud architektury samochodowej muszą się liczyć z nie lada wydatkami</p>
-            <input class="text" type="text" name="name" placeholder="Imię">
-            <input class="text" type="text" name="surname" placeholder="Nazwisko">
+            <input class="input" type="text" name="name" placeholder="Imię">
+            <input class="input" type="text" name="surname" placeholder="Nazwisko">
             <select id="plec" class="text">
                 <option value="0" selected disabled>Płeć</option>
                 <option value="1">Kobieta</option>
@@ -34,7 +34,46 @@
                 <option value="7">7</option>
                 <option value="8">8</option>
             </select>
-
+            <select id="natonality" class="text">
+                <option value="0" selected disabled>Narodowość</option>
+                <option value="1">Polska</option>
+                <option value="2">Czechy</option>
+            </select>
+            <p class="font">Q1 Wybierz poszycie siedzeń:</p>
+            <div>
+                <input type="radio" id="siedzenie1" name="drone" value="plandeka" checked><br>
+                <label class="font" for="siedzenie">Plandeka zdjęta z Żuka pana Mietka</label>
+                <br><br>
+            </div>
+            <div>
+                <input type="radio" id="siedzenie2" name="drone" value="memoryfoam" checked><br>
+                <label class="font" for="siedzenie2">Skóra MemoryFoam 2.0 BETA &trade;</label>
+                <br><br>
+            </div>
+            <br><br>
+            <p class="font">Q2 Wybierz pojemność baku paliwa:</p>
+            <div>
+                <input type="radio" id="bakpaliwa1" name="drone" value="plandeka" checked><br>
+                <label class="font" for="bakpaliwa1">40l (standard)</label>
+                <br><br>
+            </div>
+            <div>
+                <input type="radio" id="siedzenie2" name="drone" value="huey" checked><br>
+                <label class="font" for="siedzenie2">∞l (extra space)</label>
+                <br><br>
+            </div>
+            <br><br>
+            <p class="font">Q2 Wybierz radyjko samochodowe:</p>
+            <div>
+                <input type="radio" id="radyjko1" name="drone" value="plandeka" checked><br>
+                <label class="font" for="radyjko1">Brak</label>
+                <br><br>
+            </div>
+            <div>
+                <input type="radio" id="radyjko2" name="drone" value="huey" checked><br>
+                <label class="font" for="radyjko2">Dżej Bi El, powered by Micro$oft Ejżur</label>
+                <br><br>
+            </div>
         </div>
     </div>
 </body>
