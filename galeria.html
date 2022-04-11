@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/nav.js"></script>
     <title>Pistacjowe Fabie &middot; Galeria</title>
 </head>
 <body>
     <div class="content">
         <div class="bannerholder"><img class="banner" src="./assets/baner.png" width="50%"></div>
         <div class="sitecontent">
-            <p class="navbar"><a class="navhover" href="./index.html">Strona Główna</a><a class="navhover navselected" href="./galeria.html">Galeria</a><a class="navhover" href="./danetechniczne.html">Dane Techniczne</a><a class="navhover" href="./kalkulator.html">Kalkulator</a><a class="navhover" href="./zamow.html">Zamów swój egzemplarz</a></p>
-            <br>
+            <p class="navbar"><br>
+                <a class="navhover navselected" onclick="changePage('index')">Strona Główna</a>
+                <a class="navhover" onclick="changePage('galeria')">Galeria</a>
+                <a class="navhover" onclick="changePage('danetechniczne')">Dane Techniczne</a>
+                <a class="navhover" onclick="changePage('kalkulator')">Kalkulator</a>
+                <a class="navhover" onclick="changePage('zamow')">Zamów swój egzemplarz</a>
+                <a class="navhover" onclick="changePage('kontakt')">Kontakt</a>
+            </p>
         </div>
         <div class="contentplace">
             <img src="https://www.wykop.pl/cdn/c3201142/comment_1619291923n7VM4L4odUpCGr7YjKFJXJ,w400.jpg" width="200vw" height="200vh">

@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./js/calc.js"></script>
+    <script src="./js/nav.js"></script>
     <title>Pistacjowe Fabie &middot; Kalkulator Spalania</title>
 </head>
 <body>
     <div class="content">
         <div class="bannerholder"><img class="banner" src="./assets/baner.png" width="50%"></div>
         <div class="sitecontent">
-            <p class="navbar"><a class="navhover" href="./index.html">Strona Główna</a><a class="navhover" href="./galeria.html">Galeria</a><a class="navhover" href="./danetechniczne.html">Dane Techniczne</a><a class="navhover navselected" href="./kalkulator.html">Kalkulator</a><a class="navhover" href="./zamow.html">Zamów swój egzemplarz</a></p>
+            <p class="navbar"><br>
+                <a class="navhover navselected" onclick="changePage('index')">Strona Główna</a>
+                <a class="navhover" onclick="changePage('galeria')">Galeria</a>
+                <a class="navhover" onclick="changePage('danetechniczne')">Dane Techniczne</a>
+                <a class="navhover" onclick="changePage('kalkulator')">Kalkulator</a>
+                <a class="navhover" onclick="changePage('zamow')">Zamów swój egzemplarz</a>
+                <a class="navhover" onclick="changePage('kontakt')">Kontakt</a>
+            </p>
             <br>
         </div>
         <div class="contentplace">
