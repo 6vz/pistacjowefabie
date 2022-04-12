@@ -3,6 +3,6 @@ console.log('Witaj na mojej epickiej stronie\nNie powinieneś tego widzieć, ale
 var counter = document.getElementById('counter');
 var i = 0;
 while (i <= 10) {
-    counter.innerHTML += i + ' ';
+    counter.innerHTML = `${i} `
     i++;
 }
